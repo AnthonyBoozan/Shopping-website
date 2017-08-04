@@ -1,0 +1,119 @@
+* {
+   /*border: 1px dashed #0000FF;*/
+}
+
+@font-face {
+    font-family: peach;
+    src:url('peach-sundress.ttf');
+}
+body {
+    background-color:darkslategrey;
+    background-size:cover;
+    background-repeat: no-repeat; 
+}
+a {
+	text-decoration:none;
+}
+#main nav {
+    align-content: center;
+    text-align:center;
+    display:block;
+    font-size: 5ex;
+    margin-bottom: 5ex;
+    margin-left:6ex;
+}
+#cart {
+    position: fixed;
+    margin-left: 95%;
+    color: white;
+}
+#button {
+	padding: 5px 5px;
+	text-align:center;
+	display:inline-block;
+	margin-left:150px;
+	background-color:#ADD7FF;
+	border: none;
+	text-decoration: none;
+}
+#button:hover{
+	color:#559761;
+}
+nav a {
+    text-decoration: none;
+    display: inline;
+    margin-right: 100px;
+    color: white;
+    text-shadow: 2px 2px black;
+    position: relative;
+}
+
+nav a:hover{
+    color:#559761;
+}
+
+#main h1{
+    font-size: 15ex;
+    text-align: center;
+    margin-top: -4px;
+    margin-bottom: 0px;
+    font-family: peach;
+}
+#history { 
+    position: fixed;
+    margin-top: 50px;
+    text-align: center;
+    width: 200px;
+    background-color: #61B2FF;
+    margin-left:35px;
+    color: white;
+    text-shadow: 1px 2px black;
+}
+#history a {
+    text-decoration: none;
+    color: white;
+}
+#history p {
+    color: white;
+    font-size: 12px;
+}
+#history img {
+    height: 100px;
+    width: 140px;
+}
+#main {
+    margin-top:-10px;
+    margin-left: 15%;
+    height: fill;
+    background-color: #61B2FF;
+    width: 70%;
+    position: absolute;
+    border-radius: 5px;
+}
+
+td img{
+    height: 30ex;
+    width: 47ex;
+    margin-right: 70px;
+    margin-left:45px;
+    margin-top: 30px;
+}
+td p{
+    position:relative;
+    margin-right: 70px;
+    margin-left:45px;
+    color: white;
+    text-shadow: 1px 2px black;
+}
+
+td a{
+    text-decoration: none;
+}
+
+tr {
+    margin-left: 10px;
+    margin-bottom:50px;
+    
+}
+
+

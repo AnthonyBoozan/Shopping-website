@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<p> Insert form </p>
+<form name="kform" action="http://andromeda-36.ics.uci.edu:5036/com.vogella.jersey.first/rest/customer" onsubmit="return validateForm()" method="post">
+            First name:<br>
+            <input type="text" name="firstname"><br>
+            Last name:<br>
+            <input type="text" name="lastname"><br>
+            Email:<br>
+            <input type="text" name="email"><br>
+            Street address:<br>
+            <input type="text" name="streetaddress"><br>
+            Zipcode:<br>
+            <input type="text" name="zipcode"><br>
+            City:<br>
+            <input type="text" name="city"><br>
+            State:<br>
+            <input type="text" name="state"><br>
+            Phone number (digits only):<br>
+            <input type="text" name="phonenumber"><br>
+            Shipping type:<br>
+            <select name="shipping">
+                <option value="overnight">Overnight Shipping</option>
+                <option value="2day">2 day Shipping</option>
+                <option value="6day">6 day Shipping</option>
+            </select> <br><br>
+            Credit Card info<br>
+            Credit Card number (No spaces):<br>
+            <input type="text" name="ccnum"><br>
+            Name on card:<br>
+            <input type="text" name="ccname"><br>
+            Security number on card:<br>
+            <input type="password" name="ccsnum"><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            </form>
+            <p>Update Form</p>
+            <form name="kform" action="http://andromeda-36.ics.uci.edu:5036/com.vogella.jersey.first/rest/customeredit" onsubmit="return validateForm()" method="post">
+            First name:<br>
+            <input type="text" name="firstname"><br>
+            Last name:<br>
+            <input type="text" name="lastname"><br>
+            Email:<br>
+            <input type="text" name="email"><br>
+            Street address:<br>
+            <input type="text" name="streetaddress"><br>
+            Zipcode:<br>
+            <input type="text" name="zipcode"><br>
+            City:<br>
+            <input type="text" name="city"><br>
+            State:<br>
+            <input type="text" name="state"><br>
+            Phone number (digits only):<br>
+            <input type="text" name="phonenumber"><br>
+            Shipping type:<br>
+            <select name="shipping">
+                <option value="overnight">Overnight Shipping</option>
+                <option value="2day">2 day Shipping</option>
+                <option value="6day">6 day Shipping</option>
+            </select> <br><br>
+            Credit Card info<br>
+            Credit Card number (No spaces):<br>
+            <input type="text" name="ccnum"><br>
+            Name on card:<br>
+            <input type="text" name="ccname"><br>
+            Security number on card:<br>
+            <input type="password" name="ccsnum"><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            </form>
+</body>
+</html>
